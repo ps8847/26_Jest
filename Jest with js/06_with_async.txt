@@ -1,0 +1,21 @@
+sum.js 
+
+    function fetchPromise(){
+        return new Promise((resolve , reject) => {
+            setTimeout(() => {
+                resolve('peanut butter')
+            }, 1000);
+        })
+    }
+
+    module.exports = fetchPromise
+
+
+sum.test.js 
+
+    const fetchPromise = require('./sum');
+
+    test('the data is peanut butter', async () => {
+    const data = await fetchPromise();
+    expect(data).toBe('peanut butter');
+    });

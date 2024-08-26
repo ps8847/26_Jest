@@ -1,0 +1,27 @@
+in the sum.js  
+
+    function fetchData(callback){
+        setTimeout(() => {
+            callback('peanut butter')
+        }, 1000);
+    }   
+
+    module.exports = fetchData
+
+
+in the sum.test.js 
+
+    const fetchData = require('./sum');
+
+    test('tthe data is peanut butter', done => {
+        function callback(data){
+            try{
+                expect(data).toBe('peanut butter');
+                done();
+            } catch(error){
+                done(error)
+            }
+        }
+
+        fetchData(callback)
+    })

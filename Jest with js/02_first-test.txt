@@ -1,0 +1,25 @@
+// Unit test : we do tetsing in small chunks one by one 
+
+We will create two files sum.js and sum.test.js they will be ahving followijng content 
+
+sum.js 
+
+    function sum(a,b){
+    return a+b;
+    }
+
+    module.exports = sum;
+
+sum.test.js 
+
+    const sum = require("./sum")
+
+    // test(description , fucntion) syntax 
+
+    test('add 1 + 2 to equal 3 ' , () => {
+        expect(sum(1,2)).toBe(3);
+    })
+
+
+
+aftet this open the terminal and type  >> npm test

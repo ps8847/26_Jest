@@ -1,0 +1,55 @@
+Matchers are the prototype fucntions whihc used to define the behaviour of the result 
+
+1) ToBe => boolean , string 
+
+    example  :  
+        test('two plus two is four' , () => {
+            expect(2 + 2).toBe(4);
+        }) 
+
+2)  toequal  :  used to compare values of arrays or objects 
+
+    example  :  
+        test('object assignment' , () => {
+            const data = {one : 1};
+            data['two'] = 2;
+            expect(data).toEqual({one:1 , two:2})
+        }) 
+
+3) toBeFalsy : used to get to know that the value is falsy ( undefieend  ,  0  ,  false , null) 
+
+    example:
+        test('null is falsy' , () => {
+            const n = null;
+            expect(n).toBeFalsy();
+        })
+
+4) toBeTruthy : used to get to know that the value is Truthy ( !undefieend  ,  1  ,  true , !null) 
+
+    example:
+        test('one is Truthy' , () => {
+            const n = 1;
+            expect(n).toBeTruthy();
+        })
+
+5) ToThrow  ->  for error handling
+
+        in a separate file we will write this kind of fucntion -> 
+
+            function myFunction(input) {
+                if(typeof input !== 'number'){
+                    throw new Error('Invalid Input');
+                }
+            }
+            module.exports = myFunction;
+
+
+        in the testing file the fucntion will be : 
+
+            const myFunction = require('./sum');
+
+            test('throws on invalid input', () => { 
+                expect(() => {
+                    myFunction('jhfjdfg');
+                }).toThrow();
+            })

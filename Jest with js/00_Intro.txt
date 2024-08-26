@@ -1,0 +1,3 @@
+Jest is aa powerful jaavscript tetsing framework 
+
+we will perform it by making a folder "jest-course" and then npm init -y and open it in vscode

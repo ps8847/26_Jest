@@ -1,0 +1,61 @@
+Mocking Function Example
+Purpose: Mocking is useful when you want to replace a function with a mock implementation during tests to control its behavior and track how it's being used.
+
+Example:
+
+test('mock implementation of a basic function', () => {
+    const mock = jest.fn(x => 42 + x); // Create a mock function that adds 42 to the input
+    expect(mock(1)).toBe(43); // Check if the mock function returns the expected value (42 + 1 = 43)
+    expect(mock).toHaveBeenCalledWith(1); // Verify that the mock function was called with the correct argument
+});
+Explanation:
+
+jest.fn() creates a mock function.
+The mock function adds 42 to the argument x.
+The expect statements check if the function returns the correct value and if it was called with the correct arguments.
+
+Simpler Example:
+
+test('mocking a simple addition function', () => {
+    const add = jest.fn((a, b) => a + b);
+    expect(add(2, 3)).toBe(5);
+    expect(add).toHaveBeenCalledWith(2, 3);
+});
+
+
+Spying on a Method Example
+Purpose: Spying is used when you want to track calls to a method without replacing its implementation, allowing you to see how the method is used during tests.
+
+Example:
+
+test('spying on a method of an object', () => {
+    const video = {
+        play() {
+            return true;
+        }
+    };
+
+    const spy = jest.spyOn(video, 'play'); // Spy on the 'play' method of the 'video' object
+    video.play(); // Call the 'play' method
+
+    expect(spy).toHaveBeenCalled(); // Check if the 'play' method was called
+    spy.mockRestore(); // Restore the original method implementation
+});
+
+Explanation:
+
+jest.spyOn(video, 'play') creates a spy for the play method.
+The play method is called, and the spy tracks this call.
+The expect statement checks if the method was called during the test.
+spy.mockRestore() restores the original method after the test is done.
+
+
+Simpler Example:
+
+test('spying on a console.log call', () => {
+    const spy = jest.spyOn(console, 'log');
+    console.log('Hello, World!');
+
+    expect(spy).toHaveBeenCalledWith('Hello, World!');
+    spy.mockRestore();
+});
