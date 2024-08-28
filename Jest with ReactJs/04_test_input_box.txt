@@ -1,0 +1,5 @@
+1) make input box in app component 
+2) write test case fucntion 
+3) the test input box is present or not  >> 1 , 2 , 3 in folder ( 01 )
+4) test input box. 
+    name , placeholder , id , value , type    >> in folder ( 02 )

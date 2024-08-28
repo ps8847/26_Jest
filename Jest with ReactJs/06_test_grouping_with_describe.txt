@@ -1,0 +1,10 @@
+1) what is describe ?
+
+    when we make group of tests we call them Descibe here , we will be using it as fucntion 
+
+2) how to make test cases group?
+3) run test case with describe >> in folder (01)
+3) run multiple test case with describe >> in folder (02)
+4) skip the describe >> it will skip that descirb and run rest of the cases  >> in folder (03)
+5) only in describe  >> it will run only that decsibe only >> in folder (04)
+6) nested describe >>  a descibe under another describe >> in folder (05)

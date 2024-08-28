@@ -1,0 +1,8 @@
+
+1) Make input box in the componet 
+2) define state and use with on change event 
+3) import component in tets file 
+4) write code for test case 
+5) run test case
+
+everything performed in folder 

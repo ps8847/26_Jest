@@ -1,0 +1,15 @@
+Understand React test Structure 
+
+1) what needs to import : minimum we need to import {render , screen} from @testing-library/react
+2) how to render the component : by using the render function and providing the component we want to test
+3) how tests working with RTL : it will check if the thing exist on our screen then pass else fail 
+4) how test finding UI elements  :  by following kind of fucntion 
+
+        import { render, screen } from '@testing-library/react';
+        import App from './App';
+
+        test('renders learn react link', () => {
+            render(<App />);
+            const linkElement = screen.getByText(/learn react/i);
+            expect(linkElement).toBeInTheDocument();
+        });

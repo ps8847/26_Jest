@@ -1,0 +1,5 @@
+1) make new test fucntion 
+2) write test case for check text on screen      >> in folder ( 01 )
+3) write test for case-insensitive text   >> in folder ( 02 )
+4) test title for image >> in folder ( 03 )
+5) write multiple expect in the same test function >> in folder (04)

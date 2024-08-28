@@ -1,0 +1,25 @@
+What is Testing  ?
+
+software tesing is the process of finfing errors in a software product before it is launched .
+validate fucntioning and features of software 
+
+type of testing 
+
+Testing by Tester -> Manual testing ,  automatic testing
+Testing by Developer -> 
+        1) Unit Testing = Testing individual units or components 
+        2) Integrated Testing = Tetsing between two units or components 
+        3) E-2-E Testing = Test start to end complete project 
+
+
+For React Tetsing Tools 
+
+1) Jest Framework 
+2) React testing Library
+
+
+Where we will focus ? 
+
+1) mostly we focus on Unit and Integrated Testing 
+2) But we will try to cover some E-2-E testing topics 
+3) React developer needs to do component testing mostly that came under unit testing 

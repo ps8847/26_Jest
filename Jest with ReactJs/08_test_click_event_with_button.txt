@@ -1,0 +1,5 @@
+1) make button and state in the component 
+2) update state with button click event 
+3) import component in test file 
+4) write code for test click event
+5) run test case

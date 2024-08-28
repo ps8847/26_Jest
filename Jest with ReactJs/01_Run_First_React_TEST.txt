@@ -1,0 +1,21 @@
+1) Install React App 
+2) Chgeck Testing Library 
+3) Run test case 
+4) check output 
+
+
+Create the react app 
+
+in react default testing libraries are already installed and also aa test file named as "app.test.js" is there 
+
+after that open terminal and type >> npm run test
+
+            wse will see this output :: 
+
+                Watch Usage
+                › Press a to run all tests.
+                › Press f to run only failed tests.
+                › Press q to quit watch mode.
+                › Press p to filter by a filename regex pattern.
+                › Press t to filter by a test name regex pattern.
+                › Press Enter to trigger a test run.
