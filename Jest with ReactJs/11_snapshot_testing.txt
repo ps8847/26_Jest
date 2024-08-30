@@ -1,0 +1,17 @@
+
+1) what is snapshot testing ?
+
+    it is testing in which aa copy of our code will be created and will be sasved somewhere 
+
+2) example ?   >> folder ( 01 )
+
+    when we run that file it will create aa folder and file under src folder .. 
+    and when we change anything under App component then the snapshot test willl fail by giving its description that why its failed 
+
+3) when this is useful ?
+
+    when we are about to got live and before that we do snapshot tetsing the it will tell us about the recent changes which may be harmful to our application
+
+4) how to update snapshots ?
+
+    By pressing the u key

@@ -1,0 +1,15 @@
+the before hooks will run just before test case run and after hooks will run just after the test case execution
+
+
+1) use of before and after hook 
+2) beforeall and beforeEach :  
+
+    beforeAll will run before the test file starts it execution  >> folder ( 01 ) 
+    beforeEach will run before every test case >> folder ( 02 ) 
+
+3) afterall and aftereach 
+
+    afterAll will run after the test file starts it execution  >> folder ( 03 ) 
+    afterEach will run after every test case  >> folder ( 04 ) 
+
+4) example 

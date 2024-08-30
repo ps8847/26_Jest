@@ -1,0 +1,5 @@
+class component method testing
+
+    make class component 
+    install react test renderer  >> npm i react-test-renderer 
+    test class component method  >> in folder 

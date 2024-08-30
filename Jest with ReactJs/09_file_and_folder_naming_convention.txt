@@ -1,0 +1,12 @@
+1) what file name we can use for test case file ?
+
+    file_name.test.js 
+    file_name.test.jsx 
+    file_name.spec.js 
+    file_name.spec.jsx
+
+2) folder name for testing files .
+
+    __tests__
+
+3) run test case with naming convention
