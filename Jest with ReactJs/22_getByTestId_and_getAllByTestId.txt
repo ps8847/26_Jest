@@ -1,0 +1,5 @@
+
+1) use of getByTestId 
+2) use of getAllByTestId 
+3) test single elements with test id 
+4) test multiple elements with test id

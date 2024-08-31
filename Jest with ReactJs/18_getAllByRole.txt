@@ -1,0 +1,4 @@
+
+1) handle multiple elemnts 
+2) multiple buttons with the same role >> folder ( 01 )
+3) multiple select options box with same role  >> folder ( 02 )

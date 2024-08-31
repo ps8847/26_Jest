@@ -1,0 +1,56 @@
+1) What is RTL Query?
+
+RTL Query refers to the queries provided by React Testing Library (RTL), which is a set of utilities designed to facilitate testing React components in a way that closely resembles how they are used in production. RTL queries help you select and interact with elements on the DOM by simulating user interactions, ensuring that your tests are more maintainable and reliable.
+
+2) Why Need RTL Query?
+
+RTL queries are needed because they enable developers to write tests that focus on the behavior of the UI from the user's perspective. Instead of testing the implementation details (e.g., specific class names, component structure), RTL encourages testing based on what the user can see and interact with, leading to more robust tests that are less prone to breaking when the implementation changes.
+
+3) Steps in Testing UI
+
+Setup the Test Environment:
+
+Render the component you want to test using render from RTL.
+Set up any necessary context, state, or props.
+Query the Elements:
+
+Use RTL queries to find the elements you want to interact with or assert on.
+Simulate User Interactions:
+
+Simulate user events such as clicks, typing, or form submissions using RTL utilities like fireEvent or userEvent.
+Make Assertions:
+
+Use assertions to verify that the UI behaves as expected, based on the state of the component after interactions.
+Clean Up:
+
+RTL automatically cleans up after each test, but it's good practice to ensure that the DOM is reset if needed.
+4) How RTL Query Finds Elements?
+
+RTL queries find elements by using various methods that mimic how users interact with a web page. The most common methods include:
+
+Role-based queries: getByRole finds elements based on their ARIA roles (e.g., button, heading).
+Text-based queries: getByText finds elements based on the text content visible to users.
+Label-based queries: getByLabelText finds form elements by their associated label.
+Placeholder text queries: getByPlaceholderText finds input elements by their placeholder text.
+Alt text queries: getByAltText finds elements (usually images) by their alt text.
+Title-based queries: getByTitle finds elements by their title attribute.
+5) Types of RTL Queries
+
+getBy: Returns the matching node for a query, and throws an error if no element is found.
+
+Examples: getByText, getByRole, getByLabelText.
+queryBy: Returns the matching node for a query, but returns null if no element is found (instead of throwing an error).
+
+Examples: queryByText, queryByRole.
+findBy: Returns a Promise that resolves when the element is found, useful for asynchronous elements.
+
+Examples: findByText, findByRole.
+getAllBy: Returns an array of all matching nodes, and throws an error if no elements are found.
+
+Examples: getAllByText, getAllByRole.
+queryAllBy: Returns an array of all matching nodes, and returns an empty array if no elements are found.
+
+Examples: queryAllByText, queryAllByRole.
+findAllBy: Returns a Promise that resolves to an array of matching nodes, useful for asynchronous elements.
+
+Examples: findAllByText, findAllByRole.

@@ -7,7 +7,6 @@ function App() {
       <h1>getByTestId and getAllByTestId</h1>
 
       <div data-testid="div-test-id">testing with test id</div>
-      <div data-testid="div-test-id">testing with test id</div>
 
     </div>
   );

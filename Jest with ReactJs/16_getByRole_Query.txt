@@ -1,0 +1,39 @@
+1) What is the Role in getByRole?
+
+The "role" in getByRole refers to the ARIA (Accessible Rich Internet Applications) role assigned to a specific element. These roles define what kind of user interface element a particular HTML element represents (e.g., a button, a checkbox, a heading). The role attribute helps assistive technologies, such as screen readers, understand and navigate the content of web pages.
+For example:
+A <button> element has the role of "button".
+A <h1> element has the role of "heading".
+An <input type="text"> element has the role of "textbox".
+
+2) What are Semantic Elements?
+
+Semantic elements are HTML elements that have a meaning or purpose clearly defined by the element itself. These elements describe their meaning in a way that both the browser and the developer can understand, which improves accessibility and SEO.
+Examples of Semantic Elements:
+<button>: Represents a clickable button.
+<h1>, <h2>, etc.: Represent headings of different levels.
+<table>: Represents tabular data.
+Non-Semantic Elements:
+<div>: A generic container with no inherent meaning.
+<span>: A generic inline container with no inherent meaning.
+Non-semantic elements are used purely for layout or styling purposes, whereas semantic elements clearly convey the intended purpose or function to both browsers and assistive technologies.
+
+3) Test Textbox with getByRole
+
+Check if the Textbox is Present or Not:
+Check the Value of the Textbox:
+Check if the Textbox is Disabled:
+
+( in folder ( 01 ))
+
+4) Test Button with getByRole
+
+Here’s how to test a button using the getByRole query in RTL:
+Check if the Button is Present or Not:
+Check the Text Content of the Button:
+Check if the Button is Disabled:
+
+( in folder ( 02 ))
+
+These tests ensure that your UI behaves as expected and remains accessible to all users.
+

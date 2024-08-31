@@ -1,0 +1,7 @@
+
+use of getByPlaceholderText
+use of getAllByPlaceholderText   
+Test single input field 
+Test multiple input field
+
+every thinng performed in folder ( 01 and 02 )

@@ -1,0 +1,8 @@
+
+1) multiple elemnts with the same role issue : just run the folder ( 01 ) ,, you will get the issue 
+                solution is at : folder ( 02 )
+2) multiple buttons with role  >> at folder (03 )
+
+3) multiple input box with role  same role issue : just run the folder ( 04 ) ,, you will get the issue 
+                solution is at : folder ( 05 )
+4) custom role  >> fodler ( 06 )

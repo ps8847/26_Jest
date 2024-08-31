@@ -1,0 +1,30 @@
+
+1) discuss possible case for method tetsing 
+
+    firing the event , test the ui elements 
+    not need to test the methods/fucntions .. if need the can with a long approach
+    
+2) define the button  ,  click event and method 
+3) test method with event          >> in folder ( 01 )
+4) test method without event    
+
+    1) firts method is dont test these methods 
+    2) make it a class component then test 
+    3) if we wnat to test method like this  
+
+        function App() {
+
+            let handleOtherMethod = () => {
+                console.log("hi");
+                return "hi";
+            }
+
+            return (
+                <div className="App">
+                </div>
+            )
+        }
+    
+     >> in folder ( 02 )
+
+

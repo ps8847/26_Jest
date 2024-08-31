@@ -1,0 +1,5 @@
+
+1) use of getBytext >> in folder 01
+2) use of getAllBytext >> in folder 03
+3) test single button , h1 and p tag  >> in folder 02
+4) test multiple button, h1 and p tags >> in folder 04

@@ -1,0 +1,4 @@
+
+1) use of getByLabelText
+2) Test input field with getByLabelText
+3) Test checkbox with getByLabelText
