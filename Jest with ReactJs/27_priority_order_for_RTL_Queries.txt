@@ -1,0 +1,48 @@
+Priority Order for RTL Queries (priority_order_for_RTL_Queries)
+React Testing Library (RTL) emphasizes writing tests that closely resemble how the user interacts with your application. The queries in RTL are ranked by priority, with those that simulate user interactions most accurately being given the highest priority.
+
+1) getByRole (Most Preferred)
+
+Why: This query is based on accessibility roles and is the most user-centric. It encourages accessibility by making sure elements are discoverable by their ARIA roles.
+Usage: getByRole('button', { name: /submit/i })
+
+2) getByLabelText
+
+Why: This query selects form elements by their associated label text. It is the second most preferred as it encourages good form practices by associating inputs with labels.
+Usage: getByLabelText(/username/i)
+
+3) getByPlaceholderText
+
+Why: This query selects elements by the placeholder text within input elements. It is useful when testing forms where placeholders are used.
+Usage: getByPlaceholderText(/enter your name/i)
+
+4) getByText
+
+Why: This query is used to find elements by the text they display. It is commonly used for buttons, links, and other elements that have visible text.
+Usage: getByText(/click me/i)
+
+5) getByDisplayValue
+
+Why: This query is useful for finding input fields based on their current value, often in scenarios involving pre-filled or default values.
+Usage: getByDisplayValue('John Doe')
+
+6) getByAltText
+
+Why: This query is designed for finding images or other elements with an alt attribute. It encourages the use of alt text for accessibility.
+Usage: getByAltText(/profile picture/i)
+
+7) getByTitle
+
+Why: This query selects elements by their title attribute. It is less preferred because title attributes are not always visible to users.
+Usage: getByTitle('Close')
+
+8) getByTestId (Least Preferred)
+
+Why: This query selects elements by a data-testid attribute. It should be a last resort because it does not reflect how a user interacts with the application. It is used when no other query is appropriate.
+Usage: getByTestId('submit-button')
+
+
+Why This Order Matters
+Accessibility: Higher-priority queries encourage accessibility best practices.
+User Interaction: Queries that mirror how users interact with the application come first, making the tests more reliable and meaningful.
+This order should guide the way you write tests to ensure they remain focused on actual user behavior and accessibility.

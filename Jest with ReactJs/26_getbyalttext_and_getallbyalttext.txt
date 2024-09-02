@@ -1,0 +1,7 @@
+
+1) use of getbyalttext 
+2) use of getallbyalttext 
+3) test single image with getbyalttext 
+4) test multiple images with getallbyalttext
+
+perfoemed in fodlers and its understandable

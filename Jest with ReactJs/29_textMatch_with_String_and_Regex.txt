@@ -1,0 +1,8 @@
+
+1) what is text match 
+
+    whenw e wnat to test the word or letters expeted to be passed by our test case  .. we use three methods stringf , regex and fucntions
+
+2) text match with string >> 01 folder
+3) text match with regex  >> 02 folder
+4) text match with fucntions  >> 03 folder

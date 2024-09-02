@@ -6,23 +6,13 @@ function App() {
 
   useEffect(() => {
     setTimeout(() => {
-      setdata(true);
-    }, 500);
-  });
+setdata(true)
+    } , 500)
+  } )
   return (
     <div className="App">
       <h1>findBy and findByAll</h1>
-      {data ? (
-        <>
-          {" "}
-          <h1>data found</h1> <h1>data found</h1>{" "}
-        </>
-      ) : (
-        <>
-          {" "}
-          <h1>not data found</h1> <h1>not data found</h1>{" "}
-        </>
-      )}
+      {data ? <h1>data found</h1> : <h1>not data found</h1>}
     </div>
   );
 }

@@ -1,0 +1,7 @@
+
+1) use of getBytitle
+2) use of getAllByTitle
+3) test single element with getByTitle 
+4) test multiple elements with getAllByTitle
+
+perfoermed on folders and understandable

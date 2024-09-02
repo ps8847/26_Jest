@@ -1,0 +1,16 @@
+
+1) what are assertion methods ?
+
+    the method that starts the testing actually 
+    
+    example :
+
+    expect(element).toBeInTheDocument();
+
+    this is a assertion method
+
+2) test elements with approx 10 assertion methods 
+
+    in folder (01) 
+    
+3) assertion not methods

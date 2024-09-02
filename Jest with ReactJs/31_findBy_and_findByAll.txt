@@ -1,0 +1,8 @@
+
+1) use of find by 
+
+    when element takes time to be loaded in the ui or by using apis.. then we use findBy
+
+2) write react code 
+3) test element with findBy
+4) test elements with findByAll

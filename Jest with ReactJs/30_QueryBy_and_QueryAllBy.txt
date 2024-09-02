@@ -1,0 +1,10 @@
+
+1) use of queryBy type 
+
+    it has all the features of getBy queries whihc we discussed and eprformed earlier . it has aditional feature of if the element is hidden still we can test that with queryBy feature .
+
+2) how to test elements with query   >> 01 folder
+3) example of queryBy and QueryAllBy  >> 02 folder
+4) interview questions
+
+everything performed in folder

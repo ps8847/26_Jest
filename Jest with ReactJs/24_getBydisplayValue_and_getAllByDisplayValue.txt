@@ -1,0 +1,8 @@
+
+1) use of getByDisplayValue 
+2) use of getAllByDisplayValue
+3) test single elemenbt with getByDispolayValue 
+4) test multiple elements with getAllByDisplayValue
+
+
+understandable in folders 
