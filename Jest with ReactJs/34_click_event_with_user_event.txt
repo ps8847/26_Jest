@@ -1,0 +1,16 @@
+
+click event with user event ( library )
+
+1) why we should use user event library 
+
+        it is specific library made to handle onchange ,, mousechange and each and eevry moment of user . it comes along with react testing librayr bydefault 
+
+2) update user event library 
+
+    we should use the latest version of "@testing-library/user-event": "^13.5.0",  avaiable in our pacvkage.json file 
+
+    to dothat run  >> npm i @testing-library/user-event@latest
+
+
+3) write click event with state  >> in fodlers
+4) test click event with user event

@@ -1,0 +1,11 @@
+act fucntion 
+
+1) use of act fucntion 
+
+    it is used to perform the tasks / fucntion whihc may took some time to update the state
+
+2) issue before using act fucntion 
+
+    before using act fucntion react was giving warning that we should bing this state updating task inside a act fucntion 
+
+3) apply act function >> in folders 

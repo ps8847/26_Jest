@@ -1,0 +1,7 @@
+
+1) what is keyboard interactions ?
+
+    like typing in inputs or pressing any keys in keyvboard
+
+2) write code for on-change event   > in folders 
+3) test on change event 
