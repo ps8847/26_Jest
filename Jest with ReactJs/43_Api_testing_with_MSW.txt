@@ -1,0 +1,22 @@
+documentation is at  >> msw js ( google)
+
+1) install msw >> npm install msw --save-dev
+2) make mock service folder 
+3) make server file 
+4) make server handler filer    >> make folder as follows  
+
+                            -- src /
+                                -- mockServices /
+                                    -- handler.js 
+                                    -- server.js
+
+5) write code for api testing  >>  in the folder 
+
+
+( we will create a nodejs project and will perform it there because tetsing mocks in bakcend is preferred more)
+
+6) call server in test setup file  >> in the folder of 01     ( to run that go to the root of that folder and type  == node ./src/index.js)
+
+        or 
+
+    follow the documentaion >> https://mswjs.io/docs/getting-started

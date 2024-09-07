@@ -1,0 +1,19 @@
+
+1) what is MSW ? 
+
+    i) mostly we test rest api by mocking 
+    ii) msw stands for mock service worker 
+    iii) RTL recommend to use MSW 
+    iv) we can mock api with jest also
+
+2) use of MSW ?
+
+    to mock the apis 
+
+3) Why we mock API ?
+
+    to test the apis fucntioning in all expects 
+
+4) why we should use MSW ?
+
+    recommended by RTL 

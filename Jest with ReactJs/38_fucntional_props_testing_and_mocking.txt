@@ -1,0 +1,4 @@
+
+1) add props and click event to component 
+2) fucntion mocking in testing file 
+3) write test case to test fucntional props 

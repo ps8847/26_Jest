@@ -1,0 +1,6 @@
+
+1) automatic debugging : whenever a test case fails the errors which shown to us in the console is automatic debugging
+2) prettydom 
+3) debug 
+4) DEBUG_PRINT_LIMIT=10000 npm test >> the prettyDom and ebug prints around 7000 lines of html .. to increase thatw  ecan use this command
+5) logRoles  >> gives detailed element information in pretty format 

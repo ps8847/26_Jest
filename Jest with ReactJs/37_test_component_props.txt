@@ -1,0 +1,4 @@
+
+1) make component 
+2) pass props to display on UI 
+3) write test case to test props 

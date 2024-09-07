@@ -1,0 +1,16 @@
+
+1) what is tetsing playground ?
+
+    it is a utility tool proivded for tetsing on browser ... it will help us to find the bets query parameters for tetsing on our console 
+
+2) how to install and use it ?
+
+    i) go to chrome web store and downlaod the extention named as "Testing Playground"  
+    ii) start your react app and open inspect element on the chrome 
+    iii) on the toolbar tab of developers tool of chrome we will find this "Testing Playground" just click it 
+    iv) at there you will find the tool like "element inspector" like we already have in default dev tools for elements
+    v) now just hover over the element you want a testing query and you will get it
+
+3) make test case query 
+
+    just make a normal test case

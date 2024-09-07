@@ -7,7 +7,7 @@ test("test handling", () => {
   expect(el).toBeInTheDocument();
 });
 
-test("test for mock api" , async () => {
+test("test for real api" , async () => {
   render(<App />)
   const el = await screen.findAllByRole("listitem");
   expect(el).toHaveLength(4);
